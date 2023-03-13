@@ -1,0 +1,8 @@
+<h3>Characters</h3>
+<ul class="list">
+  <li class="item" *ngFor="let character of characters">
+    <span class="text-primary">{{ character.name }}</span>
+    has a power over:
+    <span class="text-danger">{{ character.power | number }}</span>
+  </li>
+</ul>

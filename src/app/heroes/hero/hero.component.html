@@ -1,0 +1,14 @@
+<h2>{{ heroName }}</h2>
+<dl>
+  <td>Alterego:</td>
+  <dd>{{ heroName }}</dd>
+
+  <td>Real Name:</td>
+  <dd>{{ name }}</dd>
+
+  <td>Capitalized:</td>
+  <dd>{{ getPhrase() }}</dd>
+</dl>
+
+<button type="button" class="button" (click)="changeHeroName()">Change Hero</button>
+<button type="button" class="button" (click)="changeName()">Change Name</button>

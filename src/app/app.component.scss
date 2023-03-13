@@ -1,0 +1,91 @@
+$main-fonts: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.title {
+  font-size: 2rem;
+  font-family: $main-fonts;
+}
+
+h3 {
+  font-family: $main-fonts;
+}
+
+input {
+  border: 1px solid blue;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+#main-title {
+  color: rgb(99 102 241);
+}
+
+.container {
+  margin: 2rem 16rem;
+}
+
+.button {
+  background-color: rgb(79 70 229);
+  border: none;
+  border-radius: 8px;
+  color: rgb(241 245 249);
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  &:hover {
+    background-color: rgb(49 46 129);
+    cursor: pointer;
+  }
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  font-family: $main-fonts;
+}
+
+.text-danger {
+  color: rgb(225 29 72);
+}
+.mg-x {
+  margin: 0 1rem;
+}
+
+.hero-grid {
+  display: flex;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex-grow: 1;
+  margin: 0 1rem;
+}
+
+.input {
+  border: 1px solid rgb(34, 32, 32);
+  display: block;
+  padding: 0.3rem 0.5rem;
+  margin: 0.5rem;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.item {
+  text-decoration: none;
+}
+
+.invalid-input {
+  border: 1px solid rgb(225 29 72);
+}
+
+.text-primary {
+  color: rgb(37 99 235);
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+

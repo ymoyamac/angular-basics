@@ -1,0 +1,23 @@
+<h3>Add <span class="text-danger">{{ newCharacter.name }}</span></h3>
+<form (ngSubmit)="onSubmit()">
+  <input
+    type="text"
+    id="characterName"
+    name="characterName"
+    class="input"
+    placeholder="Name"
+    autocomplete="off"
+    [(ngModel)]="newCharacter.name"
+    (input)="onInputChange($event)"
+  />
+    <!-- [value]="newCharacter.name"
+    (input)="onInputChange($event)" -->
+  <input
+    type="number"
+    name="characterPower"
+    class="input"
+    placeholder="Power"
+    [(ngModel)]="newCharacter.power"
+  />
+  <button type="submit" class="button">Add</button>
+</form>

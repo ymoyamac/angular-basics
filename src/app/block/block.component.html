@@ -1,0 +1,10 @@
+<div>
+  <!-- <h1 class="title" >Counter: {{ counter }}</h1>
+  <button type="button" (click)="increment(1)" class="button" >Click me!</button>
+  <app-block-child [childValue]="counter"></app-block-child> -->
+
+  <h2 class="title">Source code version</h2>
+  <button type="button" (click)="newMinor()" class="button">New minor version</button>
+  <button type="button" (click)="newMajor()" class="button">New major version</button>
+  <app-block-child [major]="major" [minor]="minor"></app-block-child>
+</div>
